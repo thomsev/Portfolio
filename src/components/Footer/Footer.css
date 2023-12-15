@@ -1,0 +1,22 @@
+/* Set the display of the main App container to flex and orient the children vertically */
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This will make sure your app stretches to at least the height of the viewport */
+  }
+  
+  /* Make the main content flex and grow to take up available space, pushing the footer down */
+  .main-content {
+    flex: 1; /* This will allow the content area to expand */
+    padding-top: 120px; /* Adjust this value to match the height of your header and nav bar */
+  }
+  
+  /* Style the footer so it stays at the bottom */
+  .footer {
+    background-color: var(--dark-orange);
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 100%;
+  }
+  

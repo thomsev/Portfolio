@@ -1,0 +1,88 @@
+.project-detail {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem; /* Add some space below the card */
+    border-radius: 0.5rem; /* Slight rounding of corners */
+    overflow: hidden; /* Ensure nothing spills out of the card */
+  }
+  
+  .project-detail .card-img-top {
+    width: 100%; /* Ensure the image takes the full width of the card */
+    height: auto; /* Maintain the aspect ratio of the image */
+    object-fit: cover; /* Cover the area of the container without stretching the image */
+    max-height: 400px; /* You can adjust this to control how large the image appears */
+  }
+  
+  .project-detail .card-body {
+    padding: 1rem; /* Add some padding inside the card */
+  }
+  
+  .project-detail .card-title {
+    font-size: 1.5rem; /* Adjust the font size for the title */
+    margin-bottom: 0.5rem; /* Space below the title */
+  }
+  
+  .project-detail .card-text {
+    font-size: 1rem; /* Adjust the font size for the text */
+    margin-bottom: 1rem; /* Space below the text */
+  }
+  
+  .project-detail .btn {
+    margin-right: 0.5rem; /* Space between buttons */
+  }
+  
+  .btn-primary {
+    background-color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--teal) !important;
+    border-color: var(--teal) !important;
+  }
+  
+  .btn-success {
+    background-color: var(--orange) !important;
+    border-color: var(--orange) !important;
+  }
+  
+  .btn-success:hover {
+    background-color: var(--yellow) !important;
+    border-color: var(--yellow) !important;
+  }
+  .project-detail h2 {
+    color: var(--dark-blue); /* Your dark blue color */
+    margin-top: 2rem;
+  }
+  
+  .project-detail ul {
+    list-style: none; /* Removes default list style */
+    padding: 0;
+  }
+  
+  .project-detail li {
+    margin-bottom: 0.5rem; /* Spacing between list items */
+    position: relative;
+    padding-left: 1.5em;
+  }
+  
+  .project-detail li::before {
+    content: '•'; /* Custom bullet */
+    color: var(--teal); /* Teal color for bullets */
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Make the clone repository command a clickable link */
+  .clone-command {
+    background-color: var(--light-gray); /* Light background for the command */
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .clone-command:hover {
+    background-color: var(--dark-blue); /* Darker background on hover */
+    color: white;
+  } 

@@ -1,0 +1,53 @@
+.about-me {
+    max-width: 800px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .about-me h1 {
+    font-size: 2.5rem;
+    color: var(--dark-blue); /* Your color variable for text */
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    color: #333; /* Darker text color for better readability */
+    margin-bottom: 1rem; /* Consistent spacing after paragraphs */
+  }
+  
+  .social-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .social-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center; /* Center align the content */
+    font-size: 1rem;
+  }
+  
+  .social-info svg {
+    font-size: 1.5rem; /* Larger size for icons */
+  }
+  
+  .social-info a {
+    color: var(--teal); /* Your color variable for links */
+    text-decoration: none; /* No underline */
+  }
+  
+  .social-info a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+  }
+  
+  .followers-info {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
