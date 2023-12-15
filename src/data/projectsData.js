@@ -1,6 +1,6 @@
 import auctionalleasyImage from '../assets/auctionalleasy.jpg';
 import trendymartImage from '../assets/trendymart.png';
-import holidazeImage from '../assets/holidaze.jpeg';
+import holidazeImage from '../assets/holidaze1.jpg';
 
 
 const projects = [

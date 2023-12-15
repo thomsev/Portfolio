@@ -8,8 +8,9 @@
   .project-detail .card-img-top {
     width: 100%; 
     height: auto; 
-    object-fit: cover; 
-    max-height: 400px; 
+    object-fit: contain; 
+    max-height: 800px; 
+    background-color: #fff;
   }
   
   .project-detail .card-body {

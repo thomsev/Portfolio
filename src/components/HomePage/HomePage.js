@@ -13,15 +13,24 @@ const HomePage = () => {
           : project.description;
 
         return (
-          <Link to={`/projects/${project.id}`} key={project.id}>
-            <Card className="project-card">
-              <Card.Img variant="top" src={project.imageUrl} />
-              <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
-                <Card.Text>{shortDescription}</Card.Text>
-              </Card.Body>
-            </Card>
-          </Link>
+          <Card className="project-card" key={project.id}>
+            <Card.Img variant="top" src={project.imageUrl} />
+            <Card.Body>
+              <Card.Title>{project.title}</Card.Title>
+              <Card.Text>{shortDescription}</Card.Text>
+              <div className="project-card-actions">
+                <a href={project.repoUrl} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+                  GitHub Repo
+                </a>
+                {project.liveUrl && (
+                  <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="btn btn-success">
+                    Live Site
+                  </a>
+                )}
+              </div>
+            </Card.Body>
+            <Link to={`/projects/${project.id}`} className="stretched-link"></Link>
+          </Card>
         );
       })}
     </div>
