@@ -13,7 +13,7 @@ const projects = [
           'Listings',
           'Login',
           'Error Handling',
-	  'Register',       
+	      'Register',       
         ],
         builtWith: [
           'Html',

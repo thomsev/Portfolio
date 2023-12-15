@@ -7,7 +7,7 @@ import ProjectDetail from './components/ProjectDetail/ProjectDetail';
 import Footer from './components/Footer/Footer';
 import AboutMe from './components/AboutMe/AboutMe';
 import ContactForm from './components/ContactForm/ContactForm';
-import './App.css'; // Make sure this import is correct
+import './App.css'; 
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
       <div className="App">
         <Header />
         <Nav />
-        {/* Add padding here to push the content down */}
         <div className="main-content">
           <Routes>
             <Route exact path="/" element={<HomePage />} />
