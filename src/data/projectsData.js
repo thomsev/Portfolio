@@ -31,7 +31,7 @@ const projects = [
         ],
         imageUrl: auctionalleasyImage, 
         repoUrl: 'https://github.com/thomsev/SemesterCA-Auctionalleasy',
-        liveUrl: 'https://github.com/thomsev/SemesterCA-Auctionalleasy', 
+        liveUrl: 'https://moonlit-malabi-58c2c7.netlify.app/', 
       },
     {
         id: 'TrendyMart',
@@ -57,7 +57,7 @@ const projects = [
         ],
         imageUrl: trendymartImage, 
         repoUrl: 'https://github.com/thomsev/TrendyMart',
-        liveUrl: 'https://trendymart-live-url', 
+        liveUrl: 'https://guileless-yeot-27daf2.netlify.app/', 
       },
       {
         id: 'Holidaze',
