@@ -4,7 +4,6 @@ import * as Yup from 'yup';
 import './ContactForm.css'
 
 const ContactForm = () => {
-  // Yup validation schema
   const contactSchema = Yup.object().shape({
     name: Yup.string().required('Name is required'),
     email: Yup.string().email('Invalid email').required('Email is required'),

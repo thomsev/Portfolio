@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // You need to install react-router-dom for this
+import { Link } from 'react-router-dom'; 
 import './Nav.css';
 
 const Navigation = () => {
@@ -7,8 +7,8 @@ const Navigation = () => {
     <nav className='navigation'>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/contact">Contact</Link></li> {/* Assuming you have a route set up for "/contact" */}
-        <li><Link to="/about">About Me</Link></li> {/* Assuming you have a route set up for "/about" */}
+        <li><Link to="/contact">Contact</Link></li> 
+        <li><Link to="/about">About Me</Link></li> 
       </ul>
     </nav>
   );

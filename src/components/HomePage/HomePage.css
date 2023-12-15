@@ -21,30 +21,30 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: var(--nav-height); /* Use a CSS variable or a fixed value that represents the height of your navigation bar */
+    margin-top: var(--nav-height); 
     padding: 0 20px;
   }
   
   /* Project card styles */
   .project-card {
     margin: 1rem;
-    flex-basis: 300px; /* Control the width of the cards */
+    flex-basis: 300px; 
     text-align: left;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to all cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
   
   .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Increase shadow intensity on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   }
   
   .project-card img {
-    width: 100%; /* Make the image take the full width of the card */
-    height: auto; /* Set the height to auto to maintain aspect ratio */
-    object-fit: cover; /* This will cover the area, you can also use 'contain' if you don't want to crop the image */
-    max-height: 250px; /* Set a max-height to limit the size */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    max-height: 250px; 
   }
   

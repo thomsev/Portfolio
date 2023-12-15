@@ -1,15 +1,15 @@
 .contact-form {
-    max-width: 800px; /* Limit the width of the form */
-    margin: 60px auto; /* Center the form with a top margin */
-    padding: 30px; /* Pad the inside of the form container */
-    background: white; /* A light background for the form */
-    border-radius: 8px; /* Rounded corners for the form container */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* A subtle shadow to lift the form off the page */
+    max-width: 800px; 
+    margin: 60px auto; 
+    padding: 30px; 
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
   }
   
   .contact-form h2 {
     color: var(--dark-blue);
-    margin-bottom: 20px; /* Space after the form heading */
+    margin-bottom: 20px; 
   }
   
   .contact-form form {
@@ -26,12 +26,12 @@
   .contact-form textarea {
     padding: 10px;
     margin-top: 5px;
-    border: 1px solid #ddd; /* A light border for the inputs */
-    border-radius: 4px; /* Slightly round the edges of the inputs */
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
   }
   
   .contact-form textarea {
-    resize: vertical; /* Allows the user to resize the textarea vertically */
+    resize: vertical; 
   }
   
   .contact-form button {

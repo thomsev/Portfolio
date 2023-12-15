@@ -29,7 +29,7 @@ const projects = [
           'Install dependencies: npm install',
           'Run the application: npm start',
         ],
-        imageUrl: auctionalleasyImage, // Update this with the correct path or URL
+        imageUrl: auctionalleasyImage, 
         repoUrl: 'https://github.com/thomsev/SemesterCA-Auctionalleasy',
         liveUrl: 'https://github.com/thomsev/SemesterCA-Auctionalleasy', 
       },
@@ -55,9 +55,9 @@ const projects = [
           'Install dependencies: npm install',
           'Run the application: npm start',
         ],
-        imageUrl: trendymartImage, // Update this with the correct path or URL
+        imageUrl: trendymartImage, 
         repoUrl: 'https://github.com/thomsev/TrendyMart',
-        liveUrl: 'https://trendymart-live-url', // Update this with the live URL if available
+        liveUrl: 'https://trendymart-live-url', 
       },
       {
         id: 'Holidaze',
@@ -83,7 +83,7 @@ const projects = [
           'Install dependencies: npm install',
           'Run the application: npm start',
         ],
-        imageUrl: holidazeImage, // Update this with the correct path or URL
+        imageUrl: holidazeImage, 
         repoUrl: 'https://github.com/thomsev/HolidazeCA',
         liveUrl: 'https://profound-cobbler-7a920c.netlify.app/', 
       },

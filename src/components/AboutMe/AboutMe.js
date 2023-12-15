@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaClock, FaMapMarkerAlt, FaGithub } from 'react-icons/fa'; // Ensure you have react-icons installed
+import { FaLinkedin, FaClock, FaMapMarkerAlt, FaGithub } from 'react-icons/fa'; 
 import './AboutMe.css';
 
 const AboutMe = () => {

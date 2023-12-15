@@ -8,7 +8,6 @@ const HomePage = () => {
   return (
     <div className="project-list">
       {projects.map((project) => {
-        // The shortDescription should be inside the map function
         const shortDescription = project.description.length > 100 
           ? `${project.description.slice(0, 100)}...` 
           : project.description;

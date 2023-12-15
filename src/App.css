@@ -7,7 +7,7 @@
   --yellow: #E9C46A;
   --orange: #F4A261;
   --dark-orange: #E76F51;
-  --light-gray: #f5f5f5; /* A light background color */
+  --light-gray: #f5f5f5; 
 }
 
 *,
@@ -25,8 +25,7 @@ html, body {
 }
 
 .main-content {
-  padding-top: 120px; /* Adjust this value so the content starts below the navigation */
-  /* Add any additional padding or styles needed for your main content area */
+  padding-top: 120px; 
 }
 
 #root {
