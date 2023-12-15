@@ -1,6 +1,7 @@
 # My Portfolio
 
-![image](https://github.com/thomsev/Portfolio/assets/100193213/5c892c77-c7f8-4d39-9489-4cd9e74a11ad)
+![image](https://github.com/thomsev/Portfolio/assets/100193213/51dc9906-7658-448c-8e7e-c6e8091e6f45)
+
 
 
 
